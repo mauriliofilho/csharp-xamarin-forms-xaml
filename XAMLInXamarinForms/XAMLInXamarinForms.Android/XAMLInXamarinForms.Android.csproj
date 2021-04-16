@@ -16,7 +16,6 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <AndroidUseAapt2>true</AndroidUseAapt2>
@@ -90,7 +89,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\XAMLInXamarinForms\XAMLInXamarinForms.csproj">
-      <Project>{001AB683-E235-4AF7-B0BE-6C8C730E6CAE}</Project>
+      <Project>{9E29407B-9EB2-4738-82AF-CEE24E51BB3C}</Project>
       <Name>XAMLInXamarinForms</Name>
     </ProjectReference>
   </ItemGroup>
