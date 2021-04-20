@@ -16,6 +16,7 @@ namespace XAMLInXamarinForms.Views
         public NavigationPageView()
         {
             InitializeComponent();
+            PopModal();
         }
 
 
@@ -27,6 +28,11 @@ namespace XAMLInXamarinForms.Views
         private async void NutritionButton_Clicked(object sender, EventArgs e)
         {
             await this.Navigation.PushAsync(new NutritionView());
+        }
+
+        private async void PopModal()
+        {
+            await this.Navigation.PushModalAsync(new PrivacyModal(), true);
         }
     }
 }
