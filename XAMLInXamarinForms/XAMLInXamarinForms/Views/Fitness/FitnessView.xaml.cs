@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using XAMLInXamarinForms.Views.Fitness;
+using XAMLInXamarinForms.Views.Nutrition;
+
 
 using Xamarin.Forms;
 
@@ -14,10 +17,6 @@ namespace XAMLInXamarinForms.Views.Fitness
         }
 
 
-        private async void FitnessButton_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new FitnessView());
-        }
 
     }
 }
