@@ -7,6 +7,23 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:viewmodels="clr-namespace:XAMLInXamarinForms.ViewModels"
     mc:Ignorable="d">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Button">
+                <Setter Property="Font">Calibri</Setter>
+                <Setter Property="BackgroundColor">White</Setter>
+                <Setter Property="Margin">5</Setter>
+                <Setter Property="HorizontalOptions">FillAndExpand</Setter>
+            </Style>
+            <Style TargetType="Label">
+                <Setter Property="Font">Calibri</Setter>
+                <Setter Property="BackgroundColor">White</Setter>
+                <Setter Property="Padding">10</Setter>
+                <Setter Property="HorizontalOptions">FillAndExpand</Setter>
+                <Setter Property="HorizontalTextAlignment">Center</Setter>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <ContentPage.Content>
         <StackLayout>
             <Label
