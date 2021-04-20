@@ -12,16 +12,19 @@ namespace XAMLInXamarinForms.Views
     public partial class NavigationPageView : ContentPage
     {
         public PlannerViewModel model = new PlannerViewModel();
+        
 
         public NavigationPageView()
         {
             InitializeComponent();
+            BindingContext = model;
             PopModal();
         }
 
 
         private async void FitnessButton_Clicked(object sender, EventArgs e)
         {
+            
             await this.Navigation.PushAsync(new FitnessView());
         }
 
