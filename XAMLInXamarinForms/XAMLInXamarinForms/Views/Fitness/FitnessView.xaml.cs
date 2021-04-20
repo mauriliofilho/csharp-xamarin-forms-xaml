@@ -10,6 +10,14 @@ namespace XAMLInXamarinForms.Views.Fitness
         public FitnessView()
         {
             InitializeComponent();
+
         }
+
+
+        private async void FitnessButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new FitnessView());
+        }
+
     }
 }
